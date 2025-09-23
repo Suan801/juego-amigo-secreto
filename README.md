@@ -6,13 +6,13 @@
 Aplicación web construida en Javascript, HTML5 y CSS como proyecto final del curso Principiante en Programación del programa ONE de Alura Latam. Sortea un nombre de una lista proporcionada por el usuario.
 
 ## Modo de uso
-1. Escriba un nombre en la caja de texto y haga clic en Añadir o apriete la tecla Enter.
-2. Repita el punto anterior hasta que todos los nombres que desee estén añadidos.
-3. Haga clic en Sortear Amigo.
-4. Si desea reiniciar el juego, haga clic en Nuevo Sorteo.
+1. Escriba un nombre en la caja de texto y haga clic en `Añadir` o apriete la tecla `Enter`.
+2. Repita el punto anterior hasta que todos los nombres que desee estén en la lista.
+3. Haga clic en `Sortear amigo`.
+4. Si desea reiniciar el juego, haga clic en `Nuevo sorteo`.
 
 ## Funcionalidades
-* Se pueden añadir nombres con la tecla enter.
+* Se pueden añadir nombres con la tecla `Enter`.
 * Acepta cualquier nombre que contenga letras, números, espacios, tildes y similares (por si el nombre es, por ejemplo, María José, o quiere hacer un sorteo con los nombres de usuario de sus amigos).
 * Elimina cualquier espacio que haya al principio y final del nombre, como también cualquier espacio extra en medio si el nombre se compone de más de una palabra.
 * Tira alerta si:
