@@ -2,8 +2,8 @@
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #d3291d;
+    --color-button-hover: #e04237;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 30px;
 }
 
 /* Sección de entrada */
@@ -70,13 +70,22 @@ body {
     text-align: center;
 }
 
+.section-note {
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-text);
+    margin: 10px 0;
+    text-align: center;
+}
+
 /* Contenedores de entrada y botón */
 .input-wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 600px;
-    margin-top: 20px;
+    padding: 20px;
 }
 
 .input-name {
@@ -88,8 +97,11 @@ body {
 }
 
 .button-container {
-    width: 300px;
-    justify-content: center;
+    display: flex;
+    width: 500px;
+    justify-items: space-between;
+    gap: 20px;
+    padding: 20px;
 }
 
 /* Estilos de entrada de texto */
@@ -136,10 +148,15 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: var(--color-text);
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+}
+
+.result-list__name {
+    color: var(--color-primary);
+    font-size: 40px;
 }
 
 /* Botón de sortear título */
@@ -158,5 +175,25 @@ ul {
 }
 
 .button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+
+/* Botón de resetear juego */
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-reset img {
+    margin-right: 40px;
+}
+
+.button-reset:hover {
     background-color: var(--color-button-hover);
 }
