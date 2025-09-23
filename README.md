@@ -14,7 +14,7 @@ Aplicación web construida en Javascript, HTML5 y CSS como proyecto final del cu
 ## Funcionalidades
 * Se pueden añadir nombres con la tecla enter.
 * Acepta cualquier nombre que contenga letras, números, espacios, tildes y similares (por si el nombre es, por ejemplo, María José, o quiere hacer un sorteo con los nombres de usuario de sus amigos).
-* Elimina cualquier espacio que haya al principio y final del nombre, como también cualquier espacio extre entre medio si el nombre se compone de más de una palabra.
+* Elimina cualquier espacio que haya al principio y final del nombre, como también cualquier espacio extra en medio si el nombre se compone de más de una palabra.
 * Tira alerta si:
   + No hay nada en la caja al hacer clic en Añadir.
   + El nombre ya fue añadido anteriormente (no diferencia entre minúsculas y mayúsculas).
