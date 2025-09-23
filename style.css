@@ -54,10 +54,10 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 60px;
     font-family: "Merriweather", serif;
     font-weight: 900;
-    font-style: italic;
+    font-style: bold;
     color: var(--color-white);
 }
 
@@ -66,16 +66,16 @@ body {
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
-    margin: 10px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
 .section-note {
     font-family: "Inter", serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--color-text);
-    margin: 10px 0;
+    margin: 10px;
     text-align: center;
 }
 
@@ -121,16 +121,23 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    border: 2px solid #000;
+    border: 2px solid #1a1a1a;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
 .button-add {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding: 10px 30px;
+    font-size: 16px;
     background-color: var(--color-tertiary);
     color: var(--color-text);
+    gap: 10px;
     border-radius: 0 25px 25px 0;
+    border-left: 0;
 }
 
 .button-add:hover {
