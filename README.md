@@ -3,7 +3,7 @@
 
 ## Sobre el proyecto
 
-Aplicación web construida en Javascript, HTML5 y CSS como proyecto final del curso Principiante en Programación del programa ONE de Alura Latam. Sortea un nombre de una lista proporcionada por el usuario.
+Aplicación web construida en Javascript, HTML y CSS como proyecto final del curso Principiante en Programación del programa ONE de Alura Latam. Sortea de forma aleatoria un nombre de una lista proporcionada por el usuario.
 
 ## Modo de uso
 1. Escriba un nombre en la caja de texto y haga clic en `Añadir` o apriete la tecla `Enter`.
