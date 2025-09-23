@@ -8,23 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Amigo Secreto</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="/assets/favicon-32x32.png">
 </head>
 
 <body>
     <main class="main-content">
         <header class="header-banner">
-            <h1 class="main-title">Amigo Secreto</h1>
+            <h1 class="main-title">AMIGO SECRETO</h1>
             <img class="image-banner" src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
         </header>
         
         <section class="input-section">
-            <h2 class="section-title">Tipee los nombres de sus amigos</h2>
-            <h3 class="section-note">De uno en uno, por favor~</p>
+            <h2 class="section-title">Escriba los nombres de sus amigos</h2>
+            <h3 class="section-note">De uno en uno, por favor~</h3>
             
             <div class="input-wrapper">
                 <input type="text" required id="amigo" class="input-name" placeholder="Escribe un nombre">
-                <button id="añadir" class="button-add" onclick="agregarAmigo()">Añadir</button>
+                <button id="añadir" class="button-add" onclick="agregarAmigo()">
+                    <img src="assets/user-add.png" alt="Ícono para sortear">
+                    Añadir
+                </button>
             </div>
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
@@ -36,11 +39,11 @@
 
             <div class="button-container">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                    <img src="assets/play.png" alt="Ícono para sortear">
                     Sortear amigo
                 </button>
                 <button class="button-reset" onclick="nuevoSorteo()" aria-label="Nuevo sorteo">
-                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                    <img src="assets/refresh.png" alt="Ícono para sortear">
                     Nuevo sorteo
                 </button>
             </div>
