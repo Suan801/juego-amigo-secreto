@@ -1,5 +1,8 @@
 # CHALLENGE AMIGO SECRETO
-<img width="1869" height="927" alt="Screenshot 2025-09-23 at 19-13-46 Amigo Secreto" src="https://github.com/user-attachments/assets/84f853fa-0f7d-45e4-964a-fd14ae7e3b51" />
+[![Screenshot-2025-09-23-at-19-13-46-Amigo-Secreto.png](https://i.postimg.cc/mk5hXRY1/amigo-secreto-ss.png)](https://postimg.cc/SYcyRBtm)
+
+## Links
+[![Static Badge](https://img.shields.io/badge/GitHub_Pages-%23222222)](https://suan801.github.io/juego-amigo-secreto/)
 
 ## Sobre el proyecto
 
