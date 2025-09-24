@@ -2,7 +2,7 @@
 [![Screenshot-2025-09-23-at-19-13-46-Amigo-Secreto.png](https://i.postimg.cc/mk5hXRY1/amigo-secreto-ss.png)](https://postimg.cc/SYcyRBtm)
 
 ## Links
-[![Static Badge](https://img.shields.io/badge/GitHub_Pages-Juego_Amigo_Secreto-orange?logoColor=%23222222)](https://suan801.github.io/juego-amigo-secreto/)
+[![Static Badge](https://img.shields.io/badge/GitHub_Pages-Juego_Amigo_Secreto-orange?logoColor=%23222222)](https://suan801.github.io/challenge-amigo-secreto/)
 
 ## Sobre el proyecto
 
